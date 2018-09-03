@@ -1,0 +1,50 @@
+<data>
+        <observable name="B0531+21">
+            <attribute name="RAAN" value="83.63322" type="float" units="DEG"/>
+            <attribute name="DEC" value="22.01446" type="float" units="DEG"/>
+            <attribute name="P0" value="0.0333924123 " type="float" units="s"/>
+            <attribute name="P1" value="4.20972E-13 " type="float" units="s/s"/>
+            <attribute name="DM" value="56.77118" type="float" units="cm^-3 pc"/>
+            <attribute name="Dist" value="2.0" type="float" units="kpc"/>
+            <attribute name="profile" value="500" type="float"/>
+            <attribute name="parallax" value="0" type="int"/>
+        </observable>
+
+        <observable name="B1937+21">
+            <attribute name="RAAN" value="294.91067" type="float" units="DEG"/>
+            <attribute name="DEC" value="21.58309" type="float" units="DEG"/>
+            <attribute name="P0" value="0.00155780656108" type="float" units="s"/>
+            <attribute name="P1" value="10.51065E-20" type="float" units="s/s"/>
+            <attribute name="DM" value="71.0237" type="float" units="cm^-3 pc"/>
+            <attribute name="Dist" value="3.50" type="float" units="kpc"/>
+            <attribute name="profile" value="500" type="float"/>
+            <attribute name="parallax" value="0" type="int"/>
+        </observable>
+
+        <observable name="star2">
+            <attribute name="direction.x" value="0." type="float"/>
+            <attribute name="direction.y" value="1." type="float"/>
+            <attribute name="direction.z" value="0.0" type="float"/>
+            <attribute name="range_m" value="3e15" type="float"/>
+            <attribute name="base_wavelength_nm" value="600" type="float"/>
+            <attribute name="parallax" value="0" type="int"/>
+        </observable>
+
+        <observable name="star3">
+            <attribute name="direction.x" value="0." type="float"/>
+            <attribute name="direction.y" value="0.0" type="float"/>
+            <attribute name="direction.z" value="1." type="float"/>
+            <attribute name="range_m" value="3e15" type="float"/>
+            <attribute name="base_wavelength_nm" value="800" type="float"/>
+            <attribute name="parallax" value="0" type="int"/>
+        </observable>
+
+        <observable name="star4">
+            <attribute name="direction.x" value="-0.5" type="float"/>
+            <attribute name="direction.y" value="-0.5" type="float"/>
+            <attribute name="direction.z" value="-0.5" type="float"/>
+            <attribute name="range_m" value="3e15" type="float"/>
+            <attribute name="base_wavelength_nm" value="400" type="float"/>
+            <attribute name="parallax" value="0" type="int"/>
+        </observable>
+</data>
